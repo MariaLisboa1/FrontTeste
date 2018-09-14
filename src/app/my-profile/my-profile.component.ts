@@ -8,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MyProfileComponent implements OnInit {
 
   mainColor = ''
-  main = ''
-
+  
   constructor() { }
 
   ngOnInit() {
@@ -17,7 +16,8 @@ export class MyProfileComponent implements OnInit {
 
   but(){
     this.mainColor = 'borda'
-    this.main = "cursor: crosshair"
+    document.getElementById('cursor').style.cursor = "crosshair"
   }
+
 
 }

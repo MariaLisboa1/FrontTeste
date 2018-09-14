@@ -176,8 +176,29 @@ button.btn.btn-danger {
   body {cursor: pointer} 
 
   .borda{
-    border-style: solid;
+    border: solid 0.35em;
     border-color: #F53F72;
+    
   }
 
- 
+  [data-tooltip] {
+    position: relative;
+    font-weight: bold;
+  }
+  
+  [data-tooltip]:after {
+    display: none;
+    position: absolute;
+    top: -5px;
+    padding: 5px;
+    border-radius: 3px;
+    left: calc(100% + 2px);
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: #0095ff;
+    color: White;
+  }
+  
+  [data-tooltip]:hover:after {
+    display: block;
+  }
