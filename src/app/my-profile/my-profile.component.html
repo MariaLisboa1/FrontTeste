@@ -1,0 +1,70 @@
+<div class="tudo" [class]="mainColor" [style] = "main">
+<app-nav></app-nav>
+<h2 class="text-center myProfile">My Profile</h2>
+<br>
+<div class="container">
+    <div class="row">
+      <div class="col-9 fundo mx-auto">
+          <strong class="dadoProgress">Progress: 30%</strong>          
+          <div class="progress mx-auto">              
+              <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="30"
+              aria-valuemin="0" aria-valuemax="100" style="width:30%">                  
+              </div>
+            </div>
+        <br>        
+       <h6 class="text-center">Complete 60% to apply for jobs and let companies know you're interested</h6> 
+      </div>      
+    </div>  
+
+    <br>
+
+    <div class="row">
+        <div class="col-9 mx-auto text-center intro">
+          <h4>Introduction</h4>
+          <br>
+          <p class="para mx-auto">Take a brief moment to introduce yourself and increase your Profile strenght by 25%</p>
+          <button type="button" class="btn btn-danger">ADD</button>
+        </div>
+
+    </div>
+<br>
+    <div class="row">
+        <div class="col-9 mx-auto text-center intro">
+            <h4>Experience</h4>
+            <br>
+            <p class="para mx-auto">Add your experience to increase your Profile strenght by 25%</p>
+            <button type="button" class="btn btn-danger">ADD</button>
+          </div>
+    </div>
+<br>
+    <div class="row">
+        <div class="col-9 mx-auto text-center intro">
+            <h4>Education</h4>
+            <br>
+            <p class="para mx-auto">Add your education to increase your Profile strenght by 50%</p>
+            <button type="button" class="btn btn-danger">ADD</button>
+          </div>
+    </div>
+
+</div>
+
+<button type="button" class="btn btn-outline-primary rounded-circle but-left"></button>
+
+<button type="button" class="btn btn-outline-primary rounded-circle but-right"></button>
+
+<div class="btn-group menu" role="group" aria-label="Exemplo básico">
+    <button type="button" class="btn btn-secondary"><img src="../../assets/img/menu.png" alt=""></button>
+    <button type="button" class="btn btn-secondary"><img src="../../assets/img/comments.png" alt=""></button>
+    <button (click)="but()" type="button" class="btn btn-secondary"><div class="switch__container">
+        <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+        <label for="switch-shadow"></label>
+      </div>
+      </button>
+</div>
+
+<div class="footer">
+  <a href="http://www.invisionapp.com/?utm_medium=virality&utm_source=Share%20CTA" target="_blank"><img class="img" src="../../assets/img/footer.png" alt=""></a>
+</div>
+<div class="space"></div>
+
+<!-- style="cursor: crosshair" -->
