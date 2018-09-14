@@ -17,6 +17,10 @@ export class MyProfileComponent implements OnInit {
   but(){
     this.mainColor = 'borda'
     document.getElementById('cursor').style.cursor = "crosshair"
+
+  //   $(document).ready(function(){
+  //     $('[data-toggle="tooltip"]').tooltip();
+  // });
   }
 
 
